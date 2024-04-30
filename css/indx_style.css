@@ -1,0 +1,60 @@
+*{
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;  
+        font-size: 1.05rem;    
+}
+body{
+    background-image: url(../imgs/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* home section */
+
+.home-sec .navbar .Navlinks{
+    padding-top: 2rem;
+}
+
+/*content section*/
+input{
+    background-color: #FFF3CD !important;
+    color: rgb(87, 2, 2) !important;
+}
+.card-content1{
+    background-color: #bd6565;
+    box-shadow: 10px 10px 50px rgb(254, 116, 116);
+}
+.card-content2{
+    background-color: #d68888;
+    box-shadow: 10px 10px 50px rgb(194, 92, 92);
+}
+
+/* footer section */
+.brand{
+    height: 1.8rem;
+    width: 80%;
+    background-color:#330c0c;
+    padding: 0.5rem;
+    border-radius: 40%;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-top:0.7rem;
+    color: white;
+}
+.brand:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    box-shadow: 10px 10px 50px rgb(40, 23, 23);
+}
+.montaser{
+    cursor: pointer;
+    transition: all 0.4s;
+    color: white;
+
+}
+.montaser:hover{
+    box-shadow: 10px 10px 50px rgb(71, 16, 16);
+    background-color: transparent;
+}
